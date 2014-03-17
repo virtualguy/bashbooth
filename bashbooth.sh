@@ -1,7 +1,7 @@
 #!/bin/bash
 #variables
 set  -e
-base_dir=/store/shares/media/Photos/Photobooth/tmp
+base_dir=/var/www/bashbooth/photos
 tmp=${base_dir}/tmp
 backup_dir=${base_dir}/backup
 final=${base_dir}/final
@@ -12,11 +12,11 @@ overlay=/store/dropbox/jnwark/Dropbox/Public/photobooth/overlay.png
 #nashville, toaster, gotham, lomo, kelvin
 #filter=gotham
 run_countdown=false
-run_capture=false
+run_capture=true
 run_print=false
 run_upload=true
-run_backup=false
-run_restore_from_backup=true
+run_backup=true
+run_restore_from_backup=false
 #layouts
 # 2x2 = +2+2
 # 4x1 = +4+1

@@ -21,4 +21,5 @@ Some searching did show up some bash scripts that invoke gphoto and imagemagick.
 links:
 
  http://technologylibrarian.wordpress.com/2013/10/16/diy-photobooth-part-1/ 
+ 
  http://technologylibrarian.wordpress.com/2013/10/17/diy-photobooth-part-2-complete/
